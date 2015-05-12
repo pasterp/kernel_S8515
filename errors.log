@@ -1,0 +1,491 @@
+arch/arm/kernel/return_address.c:62:2: warning: #warning "TODO: return_address should use unwind tables" [-Wcpp]
+arch/arm/mach-tegra/common.c: In function 'tegra_assert_system_reset':
+arch/arm/mach-tegra/common.c:235:2: warning: format '%lx' expects argument of type 'long unsigned int', but argument 2 has type 'u32' [-Wformat]
+mm/oom_kill.c:654:12: warning: 'try_set_system_oom' defined but not used [-Wunused-function]
+arch/arm/mach-tegra/tegra14_emc.c: In function 'dram_emc_name_get':
+arch/arm/mach-tegra/tegra14_emc.c:2306:8: warning: assignment makes integer from pointer without a cast [enabled by default]
+arch/arm/mach-tegra/tegra14_emc.c:2308:8: warning: assignment makes integer from pointer without a cast [enabled by default]
+arch/arm/mach-tegra/tegra14_emc.c:2310:8: warning: assignment makes integer from pointer without a cast [enabled by default]
+arch/arm/mach-tegra/tegra14_emc.c:2312:8: warning: assignment makes integer from pointer without a cast [enabled by default]
+arch/arm/mach-tegra/tegra14_emc.c: In function 'dram_emc_name_fops_open':
+arch/arm/mach-tegra/tegra14_emc.c:2315:1: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'long long unsigned int' [-Wformat]
+arch/arm/mach-tegra/tegra14_emc.c:2315:1: warning: passing argument 3 of 'simple_attr_open' from incompatible pointer type [enabled by default]
+include/linux/fs.h:2639:5: note: expected 'int (*)(void *, u64 *)' but argument is of type 'int (*)(void *, char *)'
+In file included from arch/arm/mach-tegra/board-s8515.h:26:0,
+                 from arch/arm/mach-tegra/board-s8515.c:67:
+include/linux/mfd/max77660/max77660-core.h:1117:6: warning: "CONFIG_MACH_S9321" is not defined [-Wundef]
+In file included from arch/arm/mach-tegra/board-s8515-kbc.c:30:0:
+include/linux/mfd/max77660/max77660-core.h:1117:6: warning: "CONFIG_MACH_S9321" is not defined [-Wundef]
+In file included from arch/arm/mach-tegra/board-s8515-sdhci.c:28:0:
+include/linux/mfd/max77660/max77660-core.h:1117:6: warning: "CONFIG_MACH_S9321" is not defined [-Wundef]
+In file included from arch/arm/mach-tegra/board-s8515-power.c:31:0:
+include/linux/mfd/max77660/max77660-core.h:1117:6: warning: "CONFIG_MACH_S9321" is not defined [-Wundef]
+In file included from arch/arm/mach-tegra/board-s8515.h:26:0,
+                 from arch/arm/mach-tegra/board-s8515-powermon.c:26:
+include/linux/mfd/max77660/max77660-core.h:1117:6: warning: "CONFIG_MACH_S9321" is not defined [-Wundef]
+In file included from arch/arm/mach-tegra/board-s8515.h:26:0,
+                 from arch/arm/mach-tegra/board-s8515-pinmux.c:24:
+include/linux/mfd/max77660/max77660-core.h:1117:6: warning: "CONFIG_MACH_S9321" is not defined [-Wundef]
+In file included from arch/arm/mach-tegra/board-s8515.h:26:0,
+                 from arch/arm/mach-tegra/board-s8515-sensors.c:59:
+include/linux/mfd/max77660/max77660-core.h:1117:6: warning: "CONFIG_MACH_S9321" is not defined [-Wundef]
+arch/arm/mach-tegra/board-s8515-sensors.c: In function 'mpuirq_init':
+arch/arm/mach-tegra/board-s8515-sensors.c:1600:6: warning: "CONFIG_INV_MPU" is not defined [-Wundef]
+arch/arm/mach-tegra/board-s8515-sensors.c:1586:8: warning: unused variable 'gyro_name' [-Wunused-variable]
+arch/arm/mach-tegra/board-s8515-sensors.c:1584:11: warning: unused variable 'gyro_irq_gpio' [-Wunused-variable]
+arch/arm/mach-tegra/board-s8515-sensors.c:1583:6: warning: unused variable 'ret' [-Wunused-variable]
+arch/arm/mach-tegra/board-s8515-sensors.c: At top level:
+arch/arm/mach-tegra/board-s8515-sensors.c:1423:41: warning: 'ceres_i2c_board_info_max44005' defined but not used [-Wunused-variable]
+In file included from arch/arm/mach-tegra/board-s8515-panel.c:29:0:
+include/linux/mfd/max77660/max77660-core.h:1117:6: warning: "CONFIG_MACH_S9321" is not defined [-Wundef]
+In file included from arch/arm/mach-tegra/board-s8515.h:26:0,
+                 from arch/arm/mach-tegra/board-s8515-memory.c:24:
+include/linux/mfd/max77660/max77660-core.h:1117:6: warning: "CONFIG_MACH_S9321" is not defined [-Wundef]
+arch/arm/mach-tegra/panel-s-1080p-5.c: In function 'dsi_s_1080p_5_dc_out_init':
+arch/arm/mach-tegra/panel-s-1080p-5.c:812:9: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+arch/arm/mach-tegra/panel-s-1080p-5.c: At top level:
+arch/arm/mach-tegra/panel-s-1080p-5.c:287:27: warning: 'dsi_s_1080p_5_lm3528_bl_response_curve' defined but not used [-Wunused-variable]
+arch/arm/mach-tegra/panel-s-1080p-5.c:457:21: warning: 'dsi_s_pluto_edp_states' defined but not used [-Wunused-variable]
+arch/arm/mach-tegra/panel-s-1080p-5.c:460:21: warning: 'dsi_s_pluto_edp_brightness' defined but not used [-Wunused-variable]
+arch/arm/mach-tegra/panel-s-1080p-5.c:469:21: warning: 'dsi_s_atlantis_edp_states' defined but not used [-Wunused-variable]
+arch/arm/mach-tegra/panel-s-1080p-5.c:472:21: warning: 'dsi_s_atlantis_edp_brightness' defined but not used [-Wunused-variable]
+arch/arm/mach-tegra/panel-s-1080p-5.c:685:29: warning: 'dsi_s_1080p_5_init_cmd' defined but not used [-Wunused-variable]
+arch/arm/mach-tegra/panel-s-1080p-5.c:699:29: warning: 'dsi_s_1080p_5_suspend_cmd' defined but not used [-Wunused-variable]
+In file included from arch/arm/mach-tegra/board-s8515.h:26:0,
+                 from arch/arm/mach-tegra/board-touch-synaptics-i2c.c:32:
+include/linux/mfd/max77660/max77660-core.h:1117:6: warning: "CONFIG_MACH_S9321" is not defined [-Wundef]
+arch/arm/mach-tegra/panel-hx8394a-720p.c:366:27: warning: 'dsi_hx8394a_720p_lm3528_bl_response_curve' defined but not used [-Wunused-variable]
+arch/arm/mach-tegra/panel-hx8394a-720p.c:519:30: warning: 'dsi_hx8394a_720p_i2c_led_info' defined but not used [-Wunused-variable]
+arch/arm/mach-tegra/panel-hx8394a-720p.c:531:30: warning: 'lm3528_dsi_hx8394a_720p_i2c_led_info' defined but not used [-Wunused-variable]
+arch/arm/mach-tegra/panel-hx8394a-720p.c:537:21: warning: 'dsi_l_pluto_edp_states' defined but not used [-Wunused-variable]
+arch/arm/mach-tegra/panel-hx8394a-720p.c:540:21: warning: 'dsi_l_pluto_edp_brightness' defined but not used [-Wunused-variable]
+arch/arm/mach-tegra/panel-hx8394a-720p.c:549:21: warning: 'dsi_l_atlantis_edp_states' defined but not used [-Wunused-variable]
+arch/arm/mach-tegra/panel-hx8394a-720p.c:552:21: warning: 'dsi_l_atlantis_edp_brightness' defined but not used [-Wunused-variable]
+arch/arm/mach-tegra/panel-otm1283a-otp-720p.c:494:27: warning: 'dsi_otm1283a_otp_720p_lm3528_bl_response_curve' defined but not used [-Wunused-variable]
+arch/arm/mach-tegra/panel-otm1283a-otp-720p.c:647:30: warning: 'dsi_otm1283a_otp_720p_i2c_led_info' defined but not used [-Wunused-variable]
+arch/arm/mach-tegra/panel-otm1283a-otp-720p.c:659:30: warning: 'lm3528_dsi_otm1283a_otp_720p_i2c_led_info' defined but not used [-Wunused-variable]
+arch/arm/mach-tegra/panel-otm1283a-otp-720p.c:665:21: warning: 'dsi_l_pluto_edp_states' defined but not used [-Wunused-variable]
+arch/arm/mach-tegra/panel-otm1283a-otp-720p.c:668:21: warning: 'dsi_l_pluto_edp_brightness' defined but not used [-Wunused-variable]
+arch/arm/mach-tegra/panel-otm1283a-otp-720p.c:677:21: warning: 'dsi_l_atlantis_edp_states' defined but not used [-Wunused-variable]
+arch/arm/mach-tegra/panel-otm1283a-otp-720p.c:680:21: warning: 'dsi_l_atlantis_edp_brightness' defined but not used [-Wunused-variable]
+arch/arm/mach-tegra/panel-otm1283a-otp-720p.c:895:14: warning: 'turn_off_bl' defined but not used [-Wunused-function]
+arch/arm/mach-tegra/panel-otm1283a-720p.c:530:27: warning: 'dsi_otm1283a_720p_lm3528_bl_response_curve' defined but not used [-Wunused-variable]
+arch/arm/mach-tegra/panel-otm1283a-720p.c:683:30: warning: 'dsi_otm1283a_720p_i2c_led_info' defined but not used [-Wunused-variable]
+arch/arm/mach-tegra/panel-otm1283a-720p.c:695:30: warning: 'lm3528_dsi_otm1283a_720p_i2c_led_info' defined but not used [-Wunused-variable]
+arch/arm/mach-tegra/panel-otm1283a-720p.c:701:21: warning: 'dsi_l_pluto_edp_states' defined but not used [-Wunused-variable]
+arch/arm/mach-tegra/panel-otm1283a-720p.c:704:21: warning: 'dsi_l_pluto_edp_brightness' defined but not used [-Wunused-variable]
+arch/arm/mach-tegra/panel-otm1283a-720p.c:713:21: warning: 'dsi_l_atlantis_edp_states' defined but not used [-Wunused-variable]
+arch/arm/mach-tegra/panel-otm1283a-720p.c:716:21: warning: 'dsi_l_atlantis_edp_brightness' defined but not used [-Wunused-variable]
+arch/arm/mach-tegra/panel-otm1283a-720p.c:931:14: warning: 'turn_off_bl' defined but not used [-Wunused-function]
+sound/soc/soc-core.c: In function 'soc_probe':
+sound/soc/soc-core.c:1698:14: warning: unused variable 'err' [-Wunused-variable]
+sound/soc/codecs/max97236.c: In function 'max97236_jack_work':
+sound/soc/codecs/max97236.c:1027:15: warning: unused variable 'reg' [-Wunused-variable]
+sound/soc/codecs/max97236.c: In function 'max97236_soc_suspend':
+sound/soc/codecs/max97236.c:1339:15: warning: unused variable 'reg' [-Wunused-variable]
+sound/soc/codecs/max97236.c: In function 'max97236_pm_suspend':
+sound/soc/codecs/max97236.c:1495:27: warning: unused variable 'dai_link' [-Wunused-variable]
+sound/soc/codecs/max97236.c: In function 'max97236_pm_resume':
+sound/soc/codecs/max97236.c:1537:27: warning: unused variable 'dai_link' [-Wunused-variable]
+sound/soc/codecs/max97236.c: At top level:
+sound/soc/codecs/max97236.c:649:12: warning: 'max97236_reset' defined but not used [-Wunused-function]
+sound/soc/codecs/max98090.c:924:2: warning: initialization from incompatible pointer type [enabled by default]
+sound/soc/codecs/max98090.c:924:2: warning: (near initialization for 'table_fops.read') [enabled by default]
+sound/soc/codecs/max98090.c: In function 'max98090_set_bias_level':
+sound/soc/codecs/max98090.c:2544:24: warning: unused variable 'max98090' [-Wunused-variable]
+sound/soc/codecs/max98090.c: At top level:
+sound/soc/codecs/max98090.c:1487:12: warning: 'max98090_mic1_mux_event' defined but not used [-Wunused-function]
+sound/soc/codecs/max98090.c:1522:12: warning: 'max98090_mic2_mux_event' defined but not used [-Wunused-function]
+In file included from drivers/gpio/gpio-max77660.c:26:0:
+include/linux/mfd/max77660/max77660-core.h:1117:6: warning: "CONFIG_MACH_S9321" is not defined [-Wundef]
+net/core/sock.c: In function 'sk_get_waiting_task_cmdline':
+net/core/sock.c:2466:20: warning: 'preempt_count' may be used uninitialized in this function [-Wmaybe-uninitialized]
+net/ipv4/tcp.c: In function 'tcp_nuke_addr':
+include/net/ipv6.h:363:17: warning: 'in6' may be used uninitialized in this function [-Wmaybe-uninitialized]
+net/ipv4/tcp.c:3386:19: note: 'in6' was declared here
+In file included from drivers/input/misc/max77660_haptic.c:32:0:
+include/linux/mfd/max77660/max77660-core.h:1117:6: warning: "CONFIG_MACH_S9321" is not defined [-Wundef]
+net/ipv6/udp.c: In function 'udp6_sock_seq_show':
+net/ipv6/udp.c:1403:14: warning: comparison between pointer and integer [enabled by default]
+net/ipv6/udp.c:1426:6: warning: passing argument 2 of 'sk_get_waiting_task_cmdline' makes pointer from integer without a cast [enabled by default]
+include/net/sock.h:1493:14: note: expected 'char *' but argument is of type 'long unsigned int'
+drivers/input/misc/bma222e.c: In function 'bma_mpu_fifo_enable_store':
+drivers/input/misc/bma222e.c:840:6: warning: unused variable 'err' [-Wunused-variable]
+drivers/input/misc/bma222e.c:839:15: warning: unused variable 'fifo_enable' [-Wunused-variable]
+drivers/input/misc/bma222e.c:838:23: warning: unused variable 'bma' [-Wunused-variable]
+drivers/input/misc/bma222e.c: In function 'bma_mpu_fifo_enable_show':
+drivers/input/misc/bma222e.c:849:23: warning: unused variable 'bma' [-Wunused-variable]
+drivers/input/misc/bma222e.c: In function 'bma222e_probe':
+drivers/input/misc/bma222e.c:978:6: warning: unused variable 'chip_id' [-Wunused-variable]
+drivers/input/misc/bma222e.c: In function 'bma222e_suspend':
+drivers/input/misc/bma222e.c:1083:2: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+drivers/input/misc/bma222e.c: At top level:
+drivers/input/misc/bma222e.c:391:22: warning: 'bma222e_soft_reset' defined but not used [-Wunused-function]
+drivers/input/misc/bma222e.c:547:20: warning: 'bma222e_irq_thread' defined but not used [-Wunused-function]
+drivers/input/misc/bma222e.c:597:12: warning: 'bma222e_irq_open' defined but not used [-Wunused-function]
+drivers/input/misc/bma222e.c:604:13: warning: 'bma222e_irq_close' defined but not used [-Wunused-function]
+drivers/input/misc/bma222e.c:855:16: warning: 'bma_orientation_show' defined but not used [-Wunused-function]
+net/ipv4/tcp_ipv4.c: In function 'get_tcp4_sock':
+net/ipv4/tcp_ipv4.c:2440:14: warning: comparison between pointer and integer [enabled by default]
+net/ipv4/tcp_ipv4.c:2482:3: warning: passing argument 2 of 'sk_get_waiting_task_cmdline' makes pointer from integer without a cast [enabled by default]
+include/net/sock.h:1493:14: note: expected 'char *' but argument is of type 'long unsigned int'
+drivers/input/touchscreen/synaptics_dsx_i2c.c:56:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+drivers/input/touchscreen/synaptics_dsx_i2c.c: In function 'synaptics_rmi4_irq_acquire':
+drivers/input/touchscreen/synaptics_dsx_i2c.c:1276:3: warning: format '%x' expects argument of type 'unsigned int', but argument 4 has type 'long unsigned int' [-Wformat]
+drivers/input/touchscreen/synaptics_dsx_i2c.c: At top level:
+drivers/input/touchscreen/synaptics_dsx_i2c.c:2486:13: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+drivers/input/touchscreen/synaptics_dsx_i2c.c: In function 'create_virtual_key':
+drivers/input/touchscreen/synaptics_dsx_i2c.c:2488:15: warning: unused variable 'i' [-Wunused-variable]
+drivers/input/touchscreen/synaptics_dsx_i2c.c: In function 'synaptics_tinno_suspend':
+drivers/input/touchscreen/synaptics_dsx_i2c.c:2707:2: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+drivers/input/touchscreen/synaptics_dsx_i2c.c:2707:44: warning: unused variable 'platform_data' [-Wunused-variable]
+drivers/input/touchscreen/synaptics_dsx_i2c.c: In function 'synaptics_tinno_resume':
+drivers/input/touchscreen/synaptics_dsx_i2c.c:2740:2: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+drivers/input/touchscreen/synaptics_dsx_i2c.c:2740:44: warning: unused variable 'platform_data' [-Wunused-variable]
+drivers/input/touchscreen/synaptics_dsx_i2c.c:2728:6: warning: unused variable 'retval' [-Wunused-variable]
+drivers/input/touchscreen/synaptics_dsx_i2c.c:2727:7: warning: unused variable 'dev_status' [-Wunused-variable]
+drivers/input/touchscreen/synaptics_dsx_i2c.c: In function 'synaptics_suspend':
+drivers/input/touchscreen/synaptics_dsx_i2c.c:2770:2: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+drivers/input/touchscreen/synaptics_dsx_i2c.c:2770:44: warning: unused variable 'platform_data' [-Wunused-variable]
+drivers/input/touchscreen/synaptics_dsx_i2c.c: In function 'synaptics_resume':
+drivers/input/touchscreen/synaptics_dsx_i2c.c:2803:2: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+drivers/input/touchscreen/synaptics_dsx_i2c.c:2803:44: warning: unused variable 'platform_data' [-Wunused-variable]
+drivers/input/touchscreen/synaptics_dsx_i2c.c: In function 'synaptics_enable':
+drivers/input/touchscreen/synaptics_dsx_i2c.c:2827:44: warning: unused variable 'platform_data' [-Wunused-variable]
+drivers/input/touchscreen/synaptics_dsx_i2c.c: In function 'synaptics_disable':
+drivers/input/touchscreen/synaptics_dsx_i2c.c:2839:44: warning: unused variable 'platform_data' [-Wunused-variable]
+drivers/input/touchscreen/synaptics_dsx_i2c.c: At top level:
+drivers/input/touchscreen/synaptics_dsx_i2c.c:2640:13: warning: 'synaptics_pulldown_rst' defined but not used [-Wunused-function]
+drivers/input/touchscreen/synaptics_dsx_i2c.c:2668:13: warning: 'synaptics_pullup_rst' defined but not used [-Wunused-function]
+net/ipv6/tcp_ipv6.c: In function 'get_tcp6_sock':
+net/ipv6/tcp_ipv6.c:1951:14: warning: comparison between pointer and integer [enabled by default]
+net/ipv6/tcp_ipv6.c:1996:6: warning: passing argument 2 of 'sk_get_waiting_task_cmdline' makes pointer from integer without a cast [enabled by default]
+include/net/sock.h:1493:14: note: expected 'char *' but argument is of type 'long unsigned int'
+drivers/input/touchscreen/synaptics_dsx_fw_update.c: In function 'synaptics_get_fw_version':
+drivers/input/touchscreen/synaptics_dsx_fw_update.c:1615:2: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+drivers/input/touchscreen/synaptics_dsx_fw_update.c:1621:16: warning: unused variable 'firmware_id' [-Wunused-variable]
+drivers/input/touchscreen/synaptics_dsx_fw_update.c:1619:16: warning: unused variable 'imageFirmwareID' [-Wunused-variable]
+drivers/input/touchscreen/synaptics_dsx_fw_update.c:1617:6: warning: unused variable 'imageConfigID' [-Wunused-variable]
+drivers/input/touchscreen/synaptics_dsx_fw_update.c:1616:6: warning: unused variable 'deviceFirmwareID' [-Wunused-variable]
+drivers/input/touchscreen/synaptics_dsx_fw_update.c: In function 'synaptics_get_vendor_version':
+drivers/input/touchscreen/synaptics_dsx_fw_update.c:1654:2: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+drivers/input/touchscreen/synaptics_dsx_fw_update.c:1660:16: warning: unused variable 'firmware_id' [-Wunused-variable]
+drivers/input/touchscreen/synaptics_dsx_fw_update.c:1658:16: warning: unused variable 'imageFirmwareID' [-Wunused-variable]
+drivers/input/touchscreen/synaptics_dsx_fw_update.c:1656:6: warning: unused variable 'imageConfigID' [-Wunused-variable]
+drivers/input/touchscreen/synaptics_dsx_fw_update.c:1655:6: warning: unused variable 'deviceFirmwareID' [-Wunused-variable]
+drivers/input/touchscreen/synaptics_dsx_fw_update.c: In function 'synaptics_get_vendor_info':
+drivers/input/touchscreen/synaptics_dsx_fw_update.c:1689:5: warning: return makes pointer from integer without a cast [enabled by default]
+drivers/input/touchscreen/synaptics_dsx_fw_update.c:1692:5: warning: return makes pointer from integer without a cast [enabled by default]
+drivers/input/touchscreen/synaptics_dsx_fw_update.c:1695:5: warning: return makes pointer from integer without a cast [enabled by default]
+net/ipv4/udp.c: In function 'udp4_format_sock':
+net/ipv4/udp.c:2094:14: warning: comparison between pointer and integer [enabled by default]
+net/ipv4/udp.c:2105:3: warning: passing argument 2 of 'sk_get_waiting_task_cmdline' makes pointer from integer without a cast [enabled by default]
+include/net/sock.h:1493:14: note: expected 'char *' but argument is of type 'long unsigned int'
+In file included from drivers/leds/leds-max77660.c:29:0:
+include/linux/mfd/max77660/max77660-core.h:1117:6: warning: "CONFIG_MACH_S9321" is not defined [-Wundef]
+drivers/leds/leds-max77660.c: In function 'max77660_leds_enable_show':
+drivers/leds/leds-max77660.c:212:4: warning: passing argument 4 of 'max77660_reg_read' from incompatible pointer type [enabled by default]
+include/linux/mfd/max77660/max77660-core.h:1344:19: note: expected 'u8 *' but argument is of type 'long unsigned int *'
+drivers/leds/leds-max77660.c:213:2: warning: format '%x' expects argument of type 'unsigned int', but argument 4 has type 'long unsigned int' [-Wformat]
+drivers/leds/leds-max77660.c:218:2: warning: format '%u' expects argument of type 'unsigned int', but argument 3 has type 'long unsigned int' [-Wformat]
+drivers/leds/leds-max77660.c: In function 'max77660_leds_enable_store':
+drivers/leds/leds-max77660.c:231:2: warning: format '%x' expects argument of type 'unsigned int', but argument 4 has type 'long unsigned int' [-Wformat]
+drivers/leds/leds-max77660.c:240:3: warning: format '%x' expects argument of type 'unsigned int', but argument 4 has type 'long unsigned int' [-Wformat]
+drivers/leds/leds-max77660.c: In function 'max77660_leds_brightness_show':
+drivers/leds/leds-max77660.c:267:4: warning: passing argument 4 of 'max77660_reg_read' from incompatible pointer type [enabled by default]
+include/linux/mfd/max77660/max77660-core.h:1344:19: note: expected 'u8 *' but argument is of type 'long unsigned int *'
+drivers/leds/leds-max77660.c:273:2: warning: format '%u' expects argument of type 'unsigned int', but argument 4 has type 'long unsigned int' [-Wformat]
+drivers/leds/leds-max77660.c:273:2: warning: format '%x' expects argument of type 'unsigned int', but argument 5 has type 'long unsigned int' [-Wformat]
+drivers/leds/leds-max77660.c:275:4: warning: passing argument 4 of 'max77660_reg_read' from incompatible pointer type [enabled by default]
+include/linux/mfd/max77660/max77660-core.h:1344:19: note: expected 'u8 *' but argument is of type 'long unsigned int *'
+drivers/leds/leds-max77660.c:281:2: warning: format '%u' expects argument of type 'unsigned int', but argument 4 has type 'long unsigned int' [-Wformat]
+drivers/leds/leds-max77660.c:281:2: warning: format '%x' expects argument of type 'unsigned int', but argument 5 has type 'long unsigned int' [-Wformat]
+drivers/leds/leds-max77660.c:283:4: warning: passing argument 4 of 'max77660_reg_read' from incompatible pointer type [enabled by default]
+include/linux/mfd/max77660/max77660-core.h:1344:19: note: expected 'u8 *' but argument is of type 'long unsigned int *'
+drivers/leds/leds-max77660.c:289:2: warning: format '%u' expects argument of type 'unsigned int', but argument 4 has type 'long unsigned int' [-Wformat]
+drivers/leds/leds-max77660.c:289:2: warning: format '%x' expects argument of type 'unsigned int', but argument 5 has type 'long unsigned int' [-Wformat]
+drivers/leds/leds-max77660.c:291:4: warning: passing argument 4 of 'max77660_reg_read' from incompatible pointer type [enabled by default]
+include/linux/mfd/max77660/max77660-core.h:1344:19: note: expected 'u8 *' but argument is of type 'long unsigned int *'
+drivers/leds/leds-max77660.c:297:2: warning: format '%u' expects argument of type 'unsigned int', but argument 4 has type 'long unsigned int' [-Wformat]
+drivers/leds/leds-max77660.c:297:2: warning: format '%x' expects argument of type 'unsigned int', but argument 5 has type 'long unsigned int' [-Wformat]
+drivers/leds/leds-max77660.c:299:2: warning: format '%u' expects argument of type 'unsigned int', but argument 3 has type 'long unsigned int' [-Wformat]
+drivers/leds/leds-max77660.c: In function 'max77660_leds_brightness_store':
+drivers/leds/leds-max77660.c:309:2: warning: format '%d' expects argument of type 'int', but argument 4 has type 'long unsigned int' [-Wformat]
+drivers/leds/leds-max77660.c: In function 'max77660_leds_onms_show':
+drivers/leds/leds-max77660.c:368:4: warning: passing argument 4 of 'max77660_reg_read' from incompatible pointer type [enabled by default]
+include/linux/mfd/max77660/max77660-core.h:1344:19: note: expected 'u8 *' but argument is of type 'long unsigned int *'
+drivers/leds/leds-max77660.c:381:3: warning: format '%u' expects argument of type 'unsigned int', but argument 3 has type 'long unsigned int' [-Wformat]
+drivers/leds/leds-max77660.c: In function 'max77660_leds_onms_store':
+drivers/leds/leds-max77660.c:394:2: warning: format '%d' expects argument of type 'int', but argument 4 has type 'long unsigned int' [-Wformat]
+drivers/leds/leds-max77660.c:409:4: warning: format '%d' expects argument of type 'int', but argument 3 has type 'long unsigned int' [-Wformat]
+drivers/leds/leds-max77660.c:414:5: warning: passing argument 4 of 'max77660_reg_read' from incompatible pointer type [enabled by default]
+include/linux/mfd/max77660/max77660-core.h:1344:19: note: expected 'u8 *' but argument is of type 'long unsigned int *'
+drivers/leds/leds-max77660.c: In function 'max77660_leds_offms_show':
+drivers/leds/leds-max77660.c:451:4: warning: passing argument 4 of 'max77660_reg_read' from incompatible pointer type [enabled by default]
+include/linux/mfd/max77660/max77660-core.h:1344:19: note: expected 'u8 *' but argument is of type 'long unsigned int *'
+drivers/leds/leds-max77660.c:477:2: warning: format '%u' expects argument of type 'unsigned int', but argument 3 has type 'long unsigned int' [-Wformat]
+drivers/leds/leds-max77660.c: In function 'max77660_leds_offms_store':
+drivers/leds/leds-max77660.c:491:2: warning: format '%d' expects argument of type 'int', but argument 4 has type 'long unsigned int' [-Wformat]
+drivers/leds/leds-max77660.c:501:5: warning: passing argument 4 of 'max77660_reg_read' from incompatible pointer type [enabled by default]
+include/linux/mfd/max77660/max77660-core.h:1344:19: note: expected 'u8 *' but argument is of type 'long unsigned int *'
+drivers/leds/leds-max77660.c:526:4: warning: format '%d' expects argument of type 'int', but argument 3 has type 'long unsigned int' [-Wformat]
+drivers/leds/leds-max77660.c: In function 'set_leds_power':
+drivers/leds/leds-max77660.c:576:3: warning: suggest parentheses around '-' in operand of '&' [-Wparentheses]
+drivers/leds/leds-max77660.c:581:3: warning: suggest parentheses around '-' in operand of '&' [-Wparentheses]
+drivers/leds/leds-max77660.c:586:3: warning: suggest parentheses around '-' in operand of '&' [-Wparentheses]
+drivers/leds/leds-max77660.c: In function 'max77660_led_get_brightness':
+drivers/leds/leds-max77660.c:645:4: warning: passing argument 4 of 'max77660_reg_read' from incompatible pointer type [enabled by default]
+include/linux/mfd/max77660/max77660-core.h:1344:19: note: expected 'u8 *' but argument is of type 'long unsigned int *'
+drivers/leds/leds-max77660.c: At top level:
+drivers/leds/leds-max77660.c:716:12: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+drivers/leds/leds-max77660.c: In function 'max77660_led_get_enable':
+drivers/leds/leds-max77660.c:721:4: warning: passing argument 4 of 'max77660_reg_read' from incompatible pointer type [enabled by default]
+include/linux/mfd/max77660/max77660-core.h:1344:19: note: expected 'u8 *' but argument is of type 'int *'
+drivers/leds/leds-max77660.c: In function 'max77660_led_set_enable':
+drivers/leds/leds-max77660.c:737:2: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+drivers/leds/leds-max77660.c: In function 'max77660_led_set_hardware_blink':
+drivers/leds/leds-max77660.c:757:2: warning: format '%d' expects argument of type 'int', but argument 5 has type 'long unsigned int' [-Wformat]
+drivers/leds/leds-max77660.c:757:2: warning: format '%d' expects argument of type 'int', but argument 6 has type 'long unsigned int' [-Wformat]
+drivers/leds/leds-max77660.c:764:3: warning: format '%d' expects argument of type 'int', but argument 3 has type 'long unsigned int' [-Wformat]
+drivers/leds/leds-max77660.c:780:3: warning: format '%d' expects argument of type 'int', but argument 3 has type 'long unsigned int' [-Wformat]
+drivers/leds/leds-max77660.c: At top level:
+drivers/leds/leds-max77660.c:797:12: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+drivers/leds/leds-max77660.c: In function 'set_button_leds_work_func':
+drivers/leds/leds-max77660.c:880:2: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+drivers/leds/leds-max77660.c: In function 'tinno_max77660_get_rg_blink_brightness':
+drivers/leds/leds-max77660.c:960:3: warning: format '%d' expects argument of type 'int', but argument 4 has type 'long unsigned int' [-Wformat]
+drivers/leds/leds-max77660.c: In function 'tinno_max77660_get_rg_blink_offms':
+drivers/leds/leds-max77660.c:967:3: warning: format '%d' expects argument of type 'int', but argument 4 has type 'long unsigned int' [-Wformat]
+drivers/leds/leds-max77660.c: In function 'tinno_max77660_get_rg_blink_onms':
+drivers/leds/leds-max77660.c:974:3: warning: format '%d' expects argument of type 'int', but argument 4 has type 'long unsigned int' [-Wformat]
+drivers/leds/leds-max77660.c: At top level:
+drivers/leds/leds-max77660.c:984:5: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+drivers/leds/leds-max77660.c:992:5: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+fs/eventpoll.c: In function 'get_epoll_file_task':
+fs/eventpoll.c:1654:21: warning: unused variable 'whead' [-Wunused-variable]
+In file included from /home/pascal/ROM/cm12/out/target/product/s8515/wax_source/arch/arm/include/../../../arch/arm/mach-tegra/board-ceres.h:26:0,
+                 from drivers/media/video/ov5648.c:42:
+include/linux/mfd/max77660/max77660-core.h:1117:6: warning: "CONFIG_MACH_S9321" is not defined [-Wundef]
+In file included from drivers/mfd/max77660-core.c:28:0:
+include/linux/mfd/max77660/max77660-core.h:1117:6: warning: "CONFIG_MACH_S9321" is not defined [-Wundef]
+drivers/media/video/ov5648_otp.c: In function 'otp_apply_wb':
+drivers/media/video/ov5648_otp.c:210:9: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'long unsigned int' [-Wformat]
+drivers/media/video/ov5648_otp.c:210:9: warning: format '%x' expects argument of type 'unsigned int', but argument 3 has type 'long unsigned int' [-Wformat]
+drivers/media/video/ov5648_otp.c:264:2: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long unsigned int' [-Wformat]
+drivers/media/video/ov5648_otp.c:264:2: warning: format '%d' expects argument of type 'int', but argument 3 has type 'long unsigned int' [-Wformat]
+drivers/media/video/ov5648_otp.c:266:9: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long unsigned int' [-Wformat]
+drivers/media/video/ov5648_otp.c:266:9: warning: format '%d' expects argument of type 'int', but argument 3 has type 'long unsigned int' [-Wformat]
+drivers/media/video/ov5648_otp.c:266:9: warning: format '%d' expects argument of type 'int', but argument 4 has type 'long unsigned int' [-Wformat]
+drivers/media/video/ov5648_otp.c:268:9: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'long unsigned int' [-Wformat]
+drivers/media/video/ov5648_otp.c:268:9: warning: format '%x' expects argument of type 'unsigned int', but argument 3 has type 'long unsigned int' [-Wformat]
+drivers/media/video/ov5648_otp.c:268:9: warning: format '%x' expects argument of type 'unsigned int', but argument 4 has type 'long unsigned int' [-Wformat]
+drivers/mipi_bif/mipi-bif-tegra.c:297:1: warning: 'tegra_mipi_bif_send_DISS_command' defined but not used [-Wunused-function]
+drivers/mipi_bif/mipi-bif-tegra.c:579:1: warning: 'tegra_mipi_bif_device_detect' defined but not used [-Wunused-function]
+In file included from drivers/misc/max77660-sim.c:26:0:
+include/linux/mfd/max77660/max77660-core.h:1117:6: warning: "CONFIG_MACH_S9321" is not defined [-Wundef]
+drivers/misc/gpio-button.c: In function 'gpio_button_interrupt':
+drivers/misc/gpio-button.c:49:16: warning: unused variable 'flags' [-Wunused-variable]
+drivers/misc/gpio-button.c: In function 'gpio_button_show_gpiodata':
+drivers/misc/gpio-button.c:71:27: warning: unused variable 'ginfo' [-Wunused-variable]
+drivers/misc/gpio-button.c: In function 'gpio_button_remove':
+drivers/misc/gpio-button.c:156:10: warning: 'trig_info' is used uninitialized in this function [-Wuninitialized]
+drivers/misc/gpio-button.c:156:10: warning: 'trig' is used uninitialized in this function [-Wuninitialized]
+drivers/misc/akm8963.c: In function 'akm_compass_sysfs_enable_store':
+drivers/misc/akm8963.c:1016:2: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long int' [-Wformat]
+drivers/misc/akm8963.c: At top level:
+drivers/misc/akm8963.c:277:13: warning: 'akm_pm_exit' defined but not used [-Wunused-function]
+drivers/misc/akm8963.c:333:13: warning: 'AKECS_SetMode_SngMeasure' defined but not used [-Wunused-function]
+drivers/misc/akm8963.c:344:13: warning: 'AKECS_SetMode_SelfTest' defined but not used [-Wunused-function]
+drivers/misc/akm8963.c:354:13: warning: 'AKECS_SetMode_FUSEAccess' defined but not used [-Wunused-function]
+drivers/mmc/host/sdhci.c: In function 'sdhci_dumpcmds':
+drivers/mmc/host/sdhci.c:1608:2: warning: format '%x' expects argument of type 'unsigned int', but argument 3 has type 'struct mmc_data *' [-Wformat]
+drivers/mmc/host/sdhci.c:1611:2: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'struct mmc_request *' [-Wformat]
+In file included from drivers/pinctrl/pinctrl-max77660.c:28:0:
+include/linux/mfd/max77660/max77660-core.h:1117:6: warning: "CONFIG_MACH_S9321" is not defined [-Wundef]
+drivers/power/max17048_battery.c:55:6: warning: "CONFIG_MACH_S9321" is not defined [-Wundef]
+drivers/power/max17048_battery.c:98:8: warning: type defaults to 'int' in declaration of 'g_Batt_VL_IRQ_Count' [-Wimplicit-int]
+drivers/power/max17048_battery.c: In function 'max17048_debug_RCOMP_Seg':
+drivers/power/max17048_battery.c:245:3: warning: 'return' with a value, in function returning void [enabled by default]
+drivers/power/max17048_battery.c: In function 'max17048_rcomp_adjust':
+drivers/power/max17048_battery.c:269:5: warning: "CONFIG_MACH_S9321" is not defined [-Wundef]
+drivers/power/max17048_battery.c:303:5: warning: "CONFIG_MACH_S9321" is not defined [-Wundef]
+drivers/power/max17048_battery.c:268:33: warning: unused variable 'mdata' [-Wunused-variable]
+drivers/power/max17048_battery.c: In function 'max17048_get_property':
+drivers/power/max17048_battery.c:370:4: warning: unknown conversion type character 0xa in format [-Wformat]
+drivers/power/max17048_battery.c:373:4: warning: unknown conversion type character 0xa in format [-Wformat]
+drivers/power/max17048_battery.c:376:4: warning: unknown conversion type character 0xa in format [-Wformat]
+drivers/power/max17048_battery.c: In function 'max17048_get_soc':
+drivers/power/max17048_battery.c:445:45: warning: "CONFIG_MACH_S9321" is not defined [-Wundef]
+drivers/power/max17048_battery.c:499:7: warning: format '%d' expects argument of type 'int', but argument 6 has type 'long int' [-Wformat]
+drivers/power/max17048_battery.c:528:2: warning: format '%d' expects argument of type 'int', but argument 7 has type 'long int' [-Wformat]
+drivers/power/max17048_battery.c: In function 'max17048_work':
+drivers/power/max17048_battery.c:615:2: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long int' [-Wformat]
+drivers/power/max17048_battery.c:644:6: warning: "CONFIG_MACH_S9321" is not defined [-Wundef]
+drivers/power/max17048_battery.c:651:6: warning: "CONFIG_MACH_S9321" is not defined [-Wundef]
+drivers/power/max17048_battery.c:661:6: warning: "CONFIG_MACH_S9321" is not defined [-Wundef]
+drivers/power/max17048_battery.c:668:6: warning: "CONFIG_MACH_S9321" is not defined [-Wundef]
+drivers/power/max17048_battery.c:551:11: warning: unused variable 'status' [-Wunused-variable]
+drivers/power/max17048_battery.c: In function 'max17048_initialize':
+drivers/power/max17048_battery.c:892:6: warning: "CONFIG_MACH_S9321" is not defined [-Wundef]
+drivers/power/max17048_battery.c: In function 'max17048_update_battery_status':
+drivers/power/max17048_battery.c:1116:45: warning: "CONFIG_MACH_S9321" is not defined [-Wundef]
+drivers/power/max17048_battery.c:1129:45: warning: "CONFIG_MACH_S9321" is not defined [-Wundef]
+drivers/power/max17048_battery.c: In function 'max17048_reg_show':
+drivers/power/max17048_battery.c:1144:1: warning: no return statement in function returning non-void [-Wreturn-type]
+drivers/power/max17048_battery.c: In function 'max17048_irq_process':
+drivers/power/max17048_battery.c:1148:34: warning: initialization from incompatible pointer type [enabled by default]
+drivers/power/max17048_battery.c: At top level:
+drivers/power/max17048_battery.c:1186:2: warning: initialization from incompatible pointer type [enabled by default]
+drivers/power/max17048_battery.c:1186:2: warning: (near initialization for 'max17048_attrs[0]') [enabled by default]
+drivers/power/max17048_battery.c: In function 'max17048_suspend':
+drivers/power/max17048_battery.c:1336:6: warning: unused variable 'ret' [-Wunused-variable]
+drivers/power/max17048_battery.c: In function 'max17048_resume':
+drivers/power/max17048_battery.c:1361:33: warning: unused variable 'mdata' [-Wunused-variable]
+drivers/power/max17048_battery.c:1360:6: warning: unused variable 'ret' [-Wunused-variable]
+drivers/power/max17048_battery.c: At top level:
+drivers/power/max17048_battery.c:92:23: warning: 'g_charger_discon_time' defined but not used [-Wunused-variable]
+drivers/power/palmas_battery.c: In function 'palmas_battery_get_props':
+drivers/power/palmas_battery.c:671:4: warning: passing argument 1 of 'dev_warn' from incompatible pointer type [enabled by default]
+include/linux/device.h:898:5: note: expected 'struct device const *' but argument is of type 'struct device **'
+drivers/power/palmas_battery.c:671:4: warning: unknown conversion type character 0xa in format [-Wformat]
+drivers/power/palmas_battery.c:674:4: warning: passing argument 1 of 'dev_warn' from incompatible pointer type [enabled by default]
+include/linux/device.h:898:5: note: expected 'struct device const *' but argument is of type 'struct device **'
+drivers/power/palmas_battery.c:674:4: warning: unknown conversion type character 0xa in format [-Wformat]
+drivers/power/palmas_battery.c:677:4: warning: passing argument 1 of 'dev_warn' from incompatible pointer type [enabled by default]
+include/linux/device.h:898:5: note: expected 'struct device const *' but argument is of type 'struct device **'
+drivers/power/palmas_battery.c:677:4: warning: unknown conversion type character 0xa in format [-Wformat]
+drivers/power/palmas_battery.c: In function 'palmas_battery_suspend':
+drivers/power/palmas_battery.c:1737:6: warning: unused variable 'ret' [-Wunused-variable]
+drivers/power/palmas_battery.c: In function 'palmas_battery_resume':
+drivers/power/palmas_battery.c:1747:6: warning: unused variable 'ret' [-Wunused-variable]
+In file included from drivers/power/max77660-charger-extcon.c:38:0:
+include/linux/mfd/max77660/max77660-core.h:1117:6: warning: "CONFIG_MACH_S9321" is not defined [-Wundef]
+drivers/power/max77660-charger-extcon.c: In function 'max77660_charger_init':
+drivers/power/max77660-charger-extcon.c:277:6: warning: "CONFIG_MACH_S9321" is not defined [-Wundef]
+drivers/power/max77660-charger-extcon.c:296:6: warning: "CONFIG_MACH_S9321" is not defined [-Wundef]
+drivers/power/max77660-charger-extcon.c:314:6: warning: "CONFIG_MACH_S9321" is not defined [-Wundef]
+drivers/power/max77660-charger-extcon.c:327:9: note: #pragma message: ### use CONFIG_MACH_S8515 ###
+drivers/power/max77660-charger-extcon.c:351:6: warning: "CONFIG_MACH_S9321" is not defined [-Wundef]
+drivers/power/max77660-charger-extcon.c: In function 'max77660_chg_extcon_probe':
+drivers/power/max77660-charger-extcon.c:1325:6: warning: "CONFIG_MACH_S9321" is not defined [-Wundef]
+drivers/power/max77660-charger-extcon.c: In function 'max77660_charger_thermal_configure':
+drivers/power/max77660-charger-extcon.c:1111:2: warning: 'status4' may be used uninitialized in this function [-Wmaybe-uninitialized]
+drivers/power/max77660-charger-extcon.c:1111:2: warning: 'status3' may be used uninitialized in this function [-Wmaybe-uninitialized]
+drivers/power/max77660-charger-extcon.c:1111:2: warning: 'status2' may be used uninitialized in this function [-Wmaybe-uninitialized]
+drivers/power/max77660-charger-extcon.c:1111:2: warning: 'status1' may be used uninitialized in this function [-Wmaybe-uninitialized]
+drivers/power/max77660-charger-extcon.c:1000:4: warning: 'jeitaStatus' may be used uninitialized in this function [-Wmaybe-uninitialized]
+drivers/power/battery-charger-gauge-comm.c: In function 'battery_charger_thermal_monitor_wq':
+drivers/power/battery-charger-gauge-comm.c:162:6: warning: "CONFIG_MACH_S9321" is not defined [-Wundef]
+In file included from drivers/regulator/max77660-regulator.c:26:0:
+include/linux/mfd/max77660/max77660-core.h:1117:6: warning: "CONFIG_MACH_S9321" is not defined [-Wundef]
+drivers/regulator/max77660-regulator.c: In function 'max77660_regulator_preinit':
+drivers/regulator/max77660-regulator.c:786:6: warning: unused variable 'addr' [-Wunused-variable]
+drivers/net/wireless/bcmdhd/dhd_sdio.c: In function '_dhdsdio_download_firmware':
+drivers/net/wireless/bcmdhd/dhd_sdio.c:7985:8: warning: unused variable 'p' [-Wunused-variable]
+In file included from drivers/rtc/rtc-max77660.c:21:0:
+include/linux/mfd/max77660/max77660-core.h:1117:6: warning: "CONFIG_MACH_S9321" is not defined [-Wundef]
+drivers/net/wireless/wl12xx/main.c: In function 'wl12xx_probe':
+drivers/net/wireless/wl12xx/main.c:5490:16: warning: assignment from incompatible pointer type [enabled by default]
+In file included from include/linux/mmc/sdio_func.h:18:0,
+                 from drivers/net/wireless/sd8797/mlinux/moal_sdio.h:31,
+                 from drivers/net/wireless/sd8797/mlinux/moal_main.c:29:
+include/linux/mmc/pm.h:27:0: warning: "MMC_PM_KEEP_POWER" redefined [enabled by default]
+<command-line>:0:0: note: this is the location of the previous definition
+In file included from include/linux/mmc/sdio_func.h:18:0,
+                 from drivers/net/wireless/sd8797/mlinux/moal_sdio.h:31,
+                 from drivers/net/wireless/sd8797/mlinux/moal_ioctl.c:29:
+include/linux/mmc/pm.h:27:0: warning: "MMC_PM_KEEP_POWER" redefined [enabled by default]
+<command-line>:0:0: note: this is the location of the previous definition
+drivers/thermal/generic_adc_thermal.c:51:12: warning: 'adc2TRes' defined but not used [-Wunused-function]
+drivers/staging/iio/inkern.c:54:1: warning: data definition has no type or storage class [enabled by default]
+drivers/staging/iio/inkern.c:54:1: warning: type defaults to 'int' in declaration of 'EXPORT_SYMBOL_GPL' [-Wimplicit-int]
+drivers/staging/iio/inkern.c:54:1: warning: parameter names (without types) in function declaration [enabled by default]
+drivers/staging/iio/inkern.c:92:1: warning: data definition has no type or storage class [enabled by default]
+drivers/staging/iio/inkern.c:92:1: warning: type defaults to 'int' in declaration of 'EXPORT_SYMBOL_GPL' [-Wimplicit-int]
+drivers/staging/iio/inkern.c:92:1: warning: parameter names (without types) in function declaration [enabled by default]
+drivers/staging/iio/inkern.c:148:1: warning: data definition has no type or storage class [enabled by default]
+drivers/staging/iio/inkern.c:148:1: warning: type defaults to 'int' in declaration of 'EXPORT_SYMBOL_GPL' [-Wimplicit-int]
+drivers/staging/iio/inkern.c:148:1: warning: parameter names (without types) in function declaration [enabled by default]
+drivers/staging/iio/inkern.c:155:1: warning: data definition has no type or storage class [enabled by default]
+drivers/staging/iio/inkern.c:155:1: warning: type defaults to 'int' in declaration of 'EXPORT_SYMBOL_GPL' [-Wimplicit-int]
+drivers/staging/iio/inkern.c:155:1: warning: parameter names (without types) in function declaration [enabled by default]
+drivers/staging/iio/inkern.c:221:1: warning: data definition has no type or storage class [enabled by default]
+drivers/staging/iio/inkern.c:221:1: warning: type defaults to 'int' in declaration of 'EXPORT_SYMBOL_GPL' [-Wimplicit-int]
+drivers/staging/iio/inkern.c:221:1: warning: parameter names (without types) in function declaration [enabled by default]
+drivers/staging/iio/inkern.c:233:1: warning: data definition has no type or storage class [enabled by default]
+drivers/staging/iio/inkern.c:233:1: warning: type defaults to 'int' in declaration of 'EXPORT_SYMBOL_GPL' [-Wimplicit-int]
+drivers/staging/iio/inkern.c:233:1: warning: parameter names (without types) in function declaration [enabled by default]
+drivers/staging/iio/inkern.c:252:1: warning: data definition has no type or storage class [enabled by default]
+drivers/staging/iio/inkern.c:252:1: warning: type defaults to 'int' in declaration of 'EXPORT_SYMBOL_GPL' [-Wimplicit-int]
+drivers/staging/iio/inkern.c:252:1: warning: parameter names (without types) in function declaration [enabled by default]
+drivers/staging/iio/inkern.c:271:1: warning: data definition has no type or storage class [enabled by default]
+drivers/staging/iio/inkern.c:271:1: warning: type defaults to 'int' in declaration of 'EXPORT_SYMBOL_GPL' [-Wimplicit-int]
+drivers/staging/iio/inkern.c:271:1: warning: parameter names (without types) in function declaration [enabled by default]
+drivers/staging/iio/inkern.c:292:1: warning: data definition has no type or storage class [enabled by default]
+drivers/staging/iio/inkern.c:292:1: warning: type defaults to 'int' in declaration of 'EXPORT_SYMBOL_GPL' [-Wimplicit-int]
+drivers/staging/iio/inkern.c:292:1: warning: parameter names (without types) in function declaration [enabled by default]
+drivers/staging/iio/inkern.c:312:1: warning: data definition has no type or storage class [enabled by default]
+drivers/staging/iio/inkern.c:312:1: warning: type defaults to 'int' in declaration of 'EXPORT_SYMBOL_GPL' [-Wimplicit-int]
+drivers/staging/iio/inkern.c:312:1: warning: parameter names (without types) in function declaration [enabled by default]
+In file included from include/linux/mmc/sdio_func.h:18:0,
+                 from drivers/net/wireless/sd8797/mlinux/moal_sdio.h:31,
+                 from drivers/net/wireless/sd8797/mlinux/moal_shim.c:28:
+include/linux/mmc/pm.h:27:0: warning: "MMC_PM_KEEP_POWER" redefined [enabled by default]
+<command-line>:0:0: note: this is the location of the previous definition
+In file included from drivers/staging/iio/adc/max77660-adc.c:32:0:
+include/linux/mfd/max77660/max77660-core.h:1117:6: warning: "CONFIG_MACH_S9321" is not defined [-Wundef]
+In file included from include/linux/mmc/sdio_func.h:18:0,
+                 from drivers/net/wireless/sd8797/mlinux/moal_sdio.h:31,
+                 from drivers/net/wireless/sd8797/mlinux/moal_eth_ioctl.c:40:
+include/linux/mmc/pm.h:27:0: warning: "MMC_PM_KEEP_POWER" redefined [enabled by default]
+<command-line>:0:0: note: this is the location of the previous definition
+In file included from include/linux/mmc/sdio_func.h:18:0,
+                 from drivers/net/wireless/sd8797/mlinux/moal_sdio.h:31,
+                 from drivers/net/wireless/sd8797/mlinux/moal_uap.c:30:
+include/linux/mmc/pm.h:27:0: warning: "MMC_PM_KEEP_POWER" redefined [enabled by default]
+<command-line>:0:0: note: this is the location of the previous definition
+drivers/staging/zram/zram_drv.c: In function 'zram_init_device':
+drivers/staging/zram/zram_drv.c:602:3: warning: format '%zu' expects argument of type 'size_t', but argument 2 has type 'long unsigned int' [-Wformat]
+In file included from include/linux/mmc/sdio_func.h:18:0,
+                 from drivers/net/wireless/sd8797/mlinux/moal_sdio.h:31,
+                 from drivers/net/wireless/sd8797/mlinux/moal_proc.c:31:
+include/linux/mmc/pm.h:27:0: warning: "MMC_PM_KEEP_POWER" redefined [enabled by default]
+<command-line>:0:0: note: this is the location of the previous definition
+In file included from include/linux/mmc/sdio_func.h:18:0,
+                 from drivers/net/wireless/sd8797/mlinux/moal_sdio.h:31,
+                 from drivers/net/wireless/sd8797/mlinux/moal_sdio_mmc.c:30:
+include/linux/mmc/pm.h:27:0: warning: "MMC_PM_KEEP_POWER" redefined [enabled by default]
+<command-line>:0:0: note: this is the location of the previous definition
+In file included from drivers/watchdog/max77660_sys_wdt.c:34:0:
+include/linux/mfd/max77660/max77660-core.h:1117:6: warning: "CONFIG_MACH_S9321" is not defined [-Wundef]
+drivers/usb/host/ehci-dbg.c:36:14: warning: 'testmodes' defined but not used [-Wunused-variable]
+/home/pascal/Téléchargements/android-ndk-r10d/toolchains/arm-linux-androideabi-4.6/prebuilt/linux-x86_64/bin/arm-linux-androideabi-ld: warning: unwinding may not work because EXIDX input section 78 of arch/arm/mach-tegra/built-in.o is not in EXIDX output section
+/home/pascal/Téléchargements/android-ndk-r10d/toolchains/arm-linux-androideabi-4.6/prebuilt/linux-x86_64/bin/arm-linux-androideabi-ld: warning: unwinding may not work because EXIDX input section 587 of fs/built-in.o is not in EXIDX output section
+/home/pascal/Téléchargements/android-ndk-r10d/toolchains/arm-linux-androideabi-4.6/prebuilt/linux-x86_64/bin/arm-linux-androideabi-ld: warning: unwinding may not work because EXIDX input section 39 of crypto/built-in.o is not in EXIDX output section
+/home/pascal/Téléchargements/android-ndk-r10d/toolchains/arm-linux-androideabi-4.6/prebuilt/linux-x86_64/bin/arm-linux-androideabi-ld: warning: unwinding may not work because EXIDX input section 218 of block/built-in.o is not in EXIDX output section
+/home/pascal/Téléchargements/android-ndk-r10d/toolchains/arm-linux-androideabi-4.6/prebuilt/linux-x86_64/bin/arm-linux-androideabi-ld: warning: unwinding may not work because EXIDX input section 162 of lib/built-in.o is not in EXIDX output section
+/home/pascal/Téléchargements/android-ndk-r10d/toolchains/arm-linux-androideabi-4.6/prebuilt/linux-x86_64/bin/arm-linux-androideabi-ld: warning: unwinding may not work because EXIDX input section 47 of drivers/built-in.o is not in EXIDX output section
+/home/pascal/Téléchargements/android-ndk-r10d/toolchains/arm-linux-androideabi-4.6/prebuilt/linux-x86_64/bin/arm-linux-androideabi-ld: warning: unwinding may not work because EXIDX input section 11 of sound/built-in.o is not in EXIDX output section
+/home/pascal/Téléchargements/android-ndk-r10d/toolchains/arm-linux-androideabi-4.6/prebuilt/linux-x86_64/bin/arm-linux-androideabi-ld: warning: unwinding may not work because EXIDX input section 9 of arch/arm/oprofile/built-in.o is not in EXIDX output section
+/home/pascal/Téléchargements/android-ndk-r10d/toolchains/arm-linux-androideabi-4.6/prebuilt/linux-x86_64/bin/arm-linux-androideabi-ld: warning: unwinding may not work because EXIDX input section 454 of net/built-in.o is not in EXIDX output section
+/home/pascal/Téléchargements/android-ndk-r10d/toolchains/arm-linux-androideabi-4.6/prebuilt/linux-x86_64/bin/arm-linux-androideabi-ld: warning: unwinding may not work because EXIDX input section 78 of arch/arm/mach-tegra/built-in.o is not in EXIDX output section
+/home/pascal/Téléchargements/android-ndk-r10d/toolchains/arm-linux-androideabi-4.6/prebuilt/linux-x86_64/bin/arm-linux-androideabi-ld: warning: unwinding may not work because EXIDX input section 587 of fs/built-in.o is not in EXIDX output section
+/home/pascal/Téléchargements/android-ndk-r10d/toolchains/arm-linux-androideabi-4.6/prebuilt/linux-x86_64/bin/arm-linux-androideabi-ld: warning: unwinding may not work because EXIDX input section 39 of crypto/built-in.o is not in EXIDX output section
+/home/pascal/Téléchargements/android-ndk-r10d/toolchains/arm-linux-androideabi-4.6/prebuilt/linux-x86_64/bin/arm-linux-androideabi-ld: warning: unwinding may not work because EXIDX input section 218 of block/built-in.o is not in EXIDX output section
+/home/pascal/Téléchargements/android-ndk-r10d/toolchains/arm-linux-androideabi-4.6/prebuilt/linux-x86_64/bin/arm-linux-androideabi-ld: warning: unwinding may not work because EXIDX input section 162 of lib/built-in.o is not in EXIDX output section
+/home/pascal/Téléchargements/android-ndk-r10d/toolchains/arm-linux-androideabi-4.6/prebuilt/linux-x86_64/bin/arm-linux-androideabi-ld: warning: unwinding may not work because EXIDX input section 47 of drivers/built-in.o is not in EXIDX output section
+/home/pascal/Téléchargements/android-ndk-r10d/toolchains/arm-linux-androideabi-4.6/prebuilt/linux-x86_64/bin/arm-linux-androideabi-ld: warning: unwinding may not work because EXIDX input section 11 of sound/built-in.o is not in EXIDX output section
+/home/pascal/Téléchargements/android-ndk-r10d/toolchains/arm-linux-androideabi-4.6/prebuilt/linux-x86_64/bin/arm-linux-androideabi-ld: warning: unwinding may not work because EXIDX input section 9 of arch/arm/oprofile/built-in.o is not in EXIDX output section
+/home/pascal/Téléchargements/android-ndk-r10d/toolchains/arm-linux-androideabi-4.6/prebuilt/linux-x86_64/bin/arm-linux-androideabi-ld: warning: unwinding may not work because EXIDX input section 454 of net/built-in.o is not in EXIDX output section
+/home/pascal/Téléchargements/android-ndk-r10d/toolchains/arm-linux-androideabi-4.6/prebuilt/linux-x86_64/bin/arm-linux-androideabi-ld: warning: unwinding may not work because EXIDX input section 78 of arch/arm/mach-tegra/built-in.o is not in EXIDX output section
+/home/pascal/Téléchargements/android-ndk-r10d/toolchains/arm-linux-androideabi-4.6/prebuilt/linux-x86_64/bin/arm-linux-androideabi-ld: warning: unwinding may not work because EXIDX input section 587 of fs/built-in.o is not in EXIDX output section
+/home/pascal/Téléchargements/android-ndk-r10d/toolchains/arm-linux-androideabi-4.6/prebuilt/linux-x86_64/bin/arm-linux-androideabi-ld: warning: unwinding may not work because EXIDX input section 39 of crypto/built-in.o is not in EXIDX output section
+/home/pascal/Téléchargements/android-ndk-r10d/toolchains/arm-linux-androideabi-4.6/prebuilt/linux-x86_64/bin/arm-linux-androideabi-ld: warning: unwinding may not work because EXIDX input section 218 of block/built-in.o is not in EXIDX output section
+/home/pascal/Téléchargements/android-ndk-r10d/toolchains/arm-linux-androideabi-4.6/prebuilt/linux-x86_64/bin/arm-linux-androideabi-ld: warning: unwinding may not work because EXIDX input section 162 of lib/built-in.o is not in EXIDX output section
+/home/pascal/Téléchargements/android-ndk-r10d/toolchains/arm-linux-androideabi-4.6/prebuilt/linux-x86_64/bin/arm-linux-androideabi-ld: warning: unwinding may not work because EXIDX input section 47 of drivers/built-in.o is not in EXIDX output section
+/home/pascal/Téléchargements/android-ndk-r10d/toolchains/arm-linux-androideabi-4.6/prebuilt/linux-x86_64/bin/arm-linux-androideabi-ld: warning: unwinding may not work because EXIDX input section 11 of sound/built-in.o is not in EXIDX output section
+/home/pascal/Téléchargements/android-ndk-r10d/toolchains/arm-linux-androideabi-4.6/prebuilt/linux-x86_64/bin/arm-linux-androideabi-ld: warning: unwinding may not work because EXIDX input section 9 of arch/arm/oprofile/built-in.o is not in EXIDX output section
+/home/pascal/Téléchargements/android-ndk-r10d/toolchains/arm-linux-androideabi-4.6/prebuilt/linux-x86_64/bin/arm-linux-androideabi-ld: warning: unwinding may not work because EXIDX input section 454 of net/built-in.o is not in EXIDX output section
+In file included from arch/arm/boot/compressed/misc.c:28:0:
+arch/arm/mach-tegra/include/mach/uncompress.h: In function 'arch_decomp_setup':
+arch/arm/mach-tegra/include/mach/uncompress.h:136:6: warning: unused variable 'val' [-Wunused-variable]
